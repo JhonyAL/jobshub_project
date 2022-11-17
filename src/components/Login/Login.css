@@ -1,0 +1,144 @@
+.Login {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  background-color: #00000085;
+  color: #fff;
+}
+
+.display-none {
+  display: none;
+}
+
+.login-box {
+  width: 430px;
+  margin-top: 50px;
+  background: #000000dd;
+  border: 1px solid #ff8800;
+  height: 650px;
+  padding: 60px 50px 60px 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-box img {
+  width: 200px;
+}
+
+.login-box h1 {
+  color: #eee;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.login-box .login-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.login-box .login-inputs label {
+  width: 100%;
+  height: 45px;
+  border: 2px #ffffff00 solid;
+  padding: 8px;
+  border-bottom: solid 1px #fff;
+  transition: 100ms ease-in;
+  position: relative;
+  color: #eee;
+  transition: 200ms ease-in;
+
+}
+
+.login-box .login-inputs label span {
+  position: absolute;
+  left: 0px;
+  top: 18px;
+  font-size: 15px;
+  color: #fff;
+  transition: 100ms ease-in;
+}
+
+.login-box .login-inputs label .login-span {
+  position: absolute;
+  left: 10px;
+  top: -5px;
+  font-size: 13px;
+  background: #000;
+  color: #ff8800;
+  width: 50px;
+  text-align: center;
+  /* top: 18px; */
+}
+
+.login-box .login-inputs .label-active {
+  border: #ff8800 solid 2px;
+  border-radius: 5px;
+}
+
+.login-box .login-inputs label input {
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  border: none;
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  font-size: 15px;
+  color: #fff;
+}
+
+.pass {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.pass:hover {
+    color: #ff8800;
+}
+
+.btnSubmit {
+  padding: 15px;
+  width: 100%;
+  margin-top: 150px;
+  background: #ff8800;
+  color: #101010;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background: #e78300;
+}
+
+.close-icon {
+  font-size: 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 40px;
+  height: 30px;
+  color: #fff;
+}
+
+.close-icon:hover {
+  color: #ff9100;
+}
+
+.teste {
+  font-size: 13px;
+}
+
+.teste .sla:hover {
+  color: #ff8800;
+}

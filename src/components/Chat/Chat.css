@@ -1,0 +1,104 @@
+.Chat {
+    display: flex;
+    margin-top: 60px;
+}
+
+.Chat .chat-left {
+    height: 100vh;
+    width: 350px;
+    background: #bbbbbbcc;
+    display: flex;
+    flex-direction: column;
+}
+
+.Chat .chat-left .chat-left-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    height: 50px;
+}
+
+.Chat .chat-left .chat-left-top img {
+    width: 35px;
+}
+
+.Chat .chat-left .chat-left-top h1 {
+    margin-top: 15px;
+    font-size: 25px;
+    color: #000;
+}
+
+.Chat .chat-left .perfil-icon {
+    width: 65px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 25px auto;
+}
+
+.Chat .chat-left p {
+    text-align: center;
+    color: #222;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.Chat .chat-left .contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff8800;
+    color: #000;
+    border-radius: 50px;
+    margin-top: 20px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.Chat .chat-left .contato img {
+    width: 70px;
+    border-radius: 50%;
+}
+
+.Chat .chat {
+    width: calc(100vw - 350px);
+    height: 100vh;
+    padding: 10px;
+    background: #eeeeeedd;
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Chat .chat .mensages {
+    display: flex;
+    flex-direction: column;
+}
+
+.Chat .chat .mensages .msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    border-radius: 25px;
+}
+
+.Chat .chat .mensages-left .msg {
+    background: #000;
+}
+
+.Chat .chat .mensages-right .msg {
+    background: #ff8800;
+    color: #000;
+    margin-top: 50px;
+}
+
+.Chat .chat .mensages-right .msg p {
+    color: #000;
+}
+
+.Chat .chat .mensages .msg img {
+    width: 30px;
+    border-radius: 50%;
+}

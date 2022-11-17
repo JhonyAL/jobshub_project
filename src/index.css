@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(10, 10, 10, 0.9109), rgba(0, 0, 0, 1)), url('./assets/images/pessoas-trabalhando.png');
+  font-family: Helvetica;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 100vw;
+  min-height: 100vh;
+}
+
+body::-webkit-scrollbar {
+  background: #aaa;
+  width: 12px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #ff880091;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff;
+  text-decoration: none;
+}

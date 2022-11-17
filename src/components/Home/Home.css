@@ -1,0 +1,105 @@
+.search-section {
+  height: 350px;
+  padding: 110px;
+}
+
+h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: rgb(255, 166, 0);
+  font-weight: 700;
+}
+
+.search-input {
+  display: flex;
+  width: 600px;
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  border-radius: 20px;
+  cursor: text;
+  box-shadow: 0px 0 100px 0px;
+}
+
+.search-input input {
+  background: rgba(0, 0, 0, 0);
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin-left: 30px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.search-input p {
+  position: absolute;
+  font-size: 30px;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: black;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  width: 80%;
+  text-align: center;
+  gap: 100px;
+}
+
+.cards h1 {
+  /* margin-bottom: 100px; */
+}
+
+.card-content {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  padding: 10px;
+  border: 1px solid #ff8800;
+  background: #000000;
+}
+
+.card img {
+  width: 250px;
+  border-radius: 150px;
+  margin-bottom: 30px;
+}
+
+.card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #ccc;
+}
+
+.card span {
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.avaliation {
+  display: flex;
+}
+
+.avaliation-false {
+  color: #fff;
+}
+
+.avaliation-true {
+  color: #ff8800;
+}
