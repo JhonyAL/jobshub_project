@@ -1,7 +1,7 @@
-import "./Home.css";
+import "./index.css";
 import { BiSearch } from "react-icons/bi";
 import { useState } from "react";
-import Login from "../Login/Login";
+import Login from "../Login";
 import lucca from "../../assets/images/perfil-icon.png";
 import miya from "../../assets/images/miyashiro.png";
 import mito from "../../assets/images/mito.png";
@@ -11,26 +11,6 @@ import { AiFillStar } from "react-icons/ai";
 export default function Home() {
   return (
     <div className="Home">
-      <section className="search-section">
-        <div className="search-content">
-          <div className="title">
-            <h1>
-              Pesquise por sua região para encontrar trabalhadores próximos
-            </h1>
-          </div>
-          <label className="search-input" for="search">
-            <input
-              type="text"
-              name="search"
-              id="search"
-              placeholder="Ex: São Paulo..."
-            />
-            <p>
-              <BiSearch />
-            </p>
-          </label>
-        </div>
-      </section>
       <section className="cards">
         <h1>De sua preferência</h1>
         <div className="card-content">

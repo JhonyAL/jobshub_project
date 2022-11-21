@@ -1,4 +1,4 @@
-import './Chat.css'
+import "./index.css";
 import perfil from '../../assets/images/perfil-icon.png'
 import miyashiro from '../../assets/images/miyashiro.png'
 import jobshub_logo from '../../assets/images/jobshub-icon.png'
