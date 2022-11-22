@@ -1,6 +1,7 @@
+import React, { useState, useEffect } from "react";
+
 import "./index.css";
 import { BiSearch } from "react-icons/bi";
-import { useState } from "react";
 import Login from "../Login";
 import lucca from "../../assets/images/perfil-icon.png";
 import miya from "../../assets/images/miyashiro.png";

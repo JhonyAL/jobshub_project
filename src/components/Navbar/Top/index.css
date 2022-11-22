@@ -1,0 +1,88 @@
+.navbarTop,
+.navbarTop .right,
+.navbarTop .left .search
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbarTop {
+    width: 100%;
+    height: 65px;
+
+    background-color: #000;
+
+    position: relative;
+}
+
+.navbarTop .logo img {
+    width: 145px;
+}
+
+.navbarTop .right {
+    position: absolute;
+    right: 35px;
+
+    cursor: pointer;
+}
+
+.navbarTop .left {
+    position: absolute;
+    left: 35px;
+
+    cursor: pointer;
+}
+
+.navbarTop .left .search .searchIcon {
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+
+    font-size: 18px;
+
+    color: #fff;
+}
+
+.navbarTop .left .search input {
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+
+    font-size: 15px;
+    
+    outline: none;
+}
+
+.navbarTop .right .btnLogin {
+    width: 80px;
+    height: 40px;
+    border-radius: 15px;
+
+    font-size: 17px;
+
+    background: #00000000;
+    color: #fff;
+
+    cursor: pointer;
+}
+
+.navbarTop .right .btnLogin:hover {
+    border: .75px solid #ff8800;
+}
+
+.navbarTop .right .notificationIcon {
+    margin-right: 20px;
+
+    font-size: 27px;
+    
+    color: #fff;
+}
+
+.navbarTop .right img {
+    width: 40px;
+    border-radius: 50%;
+}

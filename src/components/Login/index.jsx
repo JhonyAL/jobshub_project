@@ -1,23 +1,11 @@
-import React, { Component } from "react"
+import React, { useState, useEffect } from "react"
 
 import "./index.css";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "../../assets/images/jobshub-logo.png";
 import { Link } from "react-router-dom";
 
-class Login extends Component {
-  constructor(props){
-    super(props)
-    this.state = {
-      boxLogin: this.props.status
-    }
-
-    this.closeLogin = this.closeLogin.bind(this)
-  }
-
-  closeLogin() {
-    this.setState({ boxLogin: false })
-  }
+export default function Login() {
 
   // const closeLogin = () => {
   //   const login = document.querySelector(".Login");
@@ -47,7 +35,6 @@ class Login extends Component {
 
   // const labels = document.querySelectorAll("label");
 
-  render () {
 
     return (
       <div className="Login">
@@ -93,5 +80,5 @@ class Login extends Component {
         </div>
       </div>
     );
-  }
+  
 }
