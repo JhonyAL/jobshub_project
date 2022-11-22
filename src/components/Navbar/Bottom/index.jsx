@@ -5,10 +5,19 @@ import { Link } from "react-router-dom"
 import './index.css'
 
 export default function Bottom() {
+    const [items, setItems] = useState([
+        
+    ])
+
+    const sla = ['Sobre', 'Contatos', 'Promoções', 'Agenda']
+
     return (
         <div className="navbarBottom">
             <div className="content">
-                <Link to="/sobre">
+                {sla.map((e, key) => {
+                    <p key="key">{e}</p>
+                })}
+                {/* <Link to="/sobre">
                     <p>Sobre</p>
                 </Link>
                 <Link to="/contatos">
@@ -19,7 +28,7 @@ export default function Bottom() {
                 </Link>
                 <Link to="/agenda">
                     <p>Agenda</p>
-                </Link>
+                </Link> */}
             </div>
         </div>
     )

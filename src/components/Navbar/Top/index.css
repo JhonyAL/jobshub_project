@@ -34,6 +34,10 @@
     cursor: pointer;
 }
 
+.navbarTop .left .search {
+    position: relative;
+}
+
 .navbarTop .left .search .searchIcon {
     width: 35px;
     height: 35px;
@@ -44,17 +48,59 @@
     font-size: 18px;
 
     color: #fff;
+
+    cursor: pointer;
+    transition: .5;
+}
+
+.navbarTop .left .search .searchIconActive {
+    width: 45px;
+    height: 45px;
+    padding: 15px;
+    border-radius: 50%;
+
+    background: #ff9100;
+
+    position: absolute;
+    left: -10px;
+
+    cursor: pointer;
+    transition: .5;
 }
 
 .navbarTop .left .search input {
-    width: 350px;
     height: 40px;
-    padding: 10px;
+    padding: 10px 50px;
     border-radius: 5px;
 
     font-size: 15px;
     
+    display: none;
     outline: none;
+
+    transition: .5;
+}
+
+.navbarTop .left .search .searchInput {
+    animation: crescer infinite;
+}
+
+@keyframes crescer {
+    0% {
+        width: 0px;
+    }
+
+    10% {
+        width: 100px;
+    }
+
+    50% {
+        width: 300px;
+    }
+
+    100% {
+        width: 450px;
+    }
 }
 
 .navbarTop .right .btnLogin {
